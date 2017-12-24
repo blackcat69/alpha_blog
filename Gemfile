@@ -50,9 +50,9 @@ end
 
 group :production do
 
-  gem 'pg'   #Use postgress in prod
+  gem 'pg'   # Use postgress in prod
 
-  gem 'rails_12factor'
+  gem 'rails_12factor'   # Not needed for Rails 5
 
 end
 
